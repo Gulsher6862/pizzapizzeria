@@ -1,0 +1,23 @@
+.container-fluid
+{
+  width:100vw;
+  height:100vh;
+  background-image:url('background1.jpg');
+}
+.logo
+{
+	margin-top:12px;
+	margin-left:12px;
+}
+
+.navbar
+{
+	float:right;
+	color:white;
+	margin-top:10px;
+	
+}
+.navbar a
+{
+	color:white;
+}
