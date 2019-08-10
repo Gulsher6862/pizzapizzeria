@@ -1,9 +1,4 @@
-.container-fluid
-{
-  width:100vw;
-  height:100vh;
-  background-image:url('background1.jpg');
-}
+
 .logo
 {
 	margin-top:12px;
@@ -52,4 +47,9 @@
 	padding-right:15px;
 	text-decoration:none;
 	border-radius:5px;
+}
+body
+{
+	background:url("background1.jpg") no-repeat fixed center;
+	background-size:cover;
 }
