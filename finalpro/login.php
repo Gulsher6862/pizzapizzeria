@@ -5,7 +5,7 @@
 <style>
 body
 {
-	background:url("pics/login.jpg") no-repeat fixed center;
+	background:url("login.jpg") no-repeat fixed center;
 	background-size:cover;
 }
 </style>
@@ -13,7 +13,7 @@ body
 <body>
 <form method="post">
 <div class="contained" align="center">
-    <img src="pics/avatar.png" height="100px" width="100px" alt="Avatar" class="avatar">
+    <img src="avatar.png" height="100px" width="100px" alt="Avatar" class="avatar">
 	<br/>
     <input type="text" placeholder="Enter Username" name="uname" required>
 

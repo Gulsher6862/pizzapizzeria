@@ -21,7 +21,7 @@
         <div class="col-lg-6 offset-lg-2">
            <ul class="nav">
                <li class="nav-item">
-                      <a class="nav-link active" href="#">OUR MENU</a>
+                      <a class="nav-link active" href="home.php">OUR MENU</a>
                </li>
                <li class="nav-item">
                       <a class="nav-link" href="#">TRACKER</a>
@@ -30,10 +30,10 @@
                       <a class="nav-link" href="#">OFFERS</a>
                </li>
                <li class="nav-item">
-                      <a class="nav-link" href="#">CONTACT US</a>
+                      <a class="nav-link" href="contact.php">CONTACT US</a>
                </li>
                <li class="nav-item">
-                      <a class="nav-link" href="#">HELP</a>
+                      <a class="nav-link" href="about.php">ABOUT</a>
                </li>
            </ul>
         </div>
