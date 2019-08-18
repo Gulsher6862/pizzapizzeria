@@ -43,8 +43,8 @@
       <div class="col-lg-6">
             <h3>WELCOME TO<br>PIZZA PIZZARIA</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
-            <a id="login" href="#">LOGIN</a>
-            <a id="signup" href="#">SIGNUP</a>
+            <a id="login" href="login.php">LOGIN</a>
+            <a id="signup" href="register.php">SIGNUP</a>
       </div>
   </div>
   </div>
