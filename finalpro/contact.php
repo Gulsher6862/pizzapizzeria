@@ -24,16 +24,13 @@
                            <a class="nav-link active" href="#">OUR MENU</a>
                        </li>
                        <li class="nav-item">
-                           <a class="nav-link" href="#">TRACKER</a>
-                       </li>
-                       <li class="nav-item">
                            <a class="nav-link" href="#">OFFERS</a>
                        </li>
                        <li class="nav-item">
                            <a class="nav-link" href="contact.php">CONTACT US</a>
                        </li>
                        <li class="nav-item">
-                           <a class="nav-link" href="about.php">ABOUT</a>
+                           <a class="nav-link" href="about.php">ABOUT US</a>
                        </li>
                   </ul>
               </div>
