@@ -42,7 +42,7 @@ if (isset($_POST['submit'])){
 	{
 		$_SESSION['pass'] = $password;
 		$_SESSION['uname'] = $username;
-		header('Location:index.php');
+		header('Location:home.php');
 	}
 	else
 		echo ("<SCRIPT LANGUAGE='JavaScript'>
