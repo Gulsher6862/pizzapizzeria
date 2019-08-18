@@ -42,21 +42,15 @@
 	margin-left:12px;
 }
 
-.navbar
+.nav
 {
-	float:right;
-	color:white;
-	margin-top:10px;
-	
+	padding-top:50px;
 }
 .nav a:link
 {
-	color:white;
+	color:#c03f22;
 }
-.nav-item a
+.nav a:hover
 {
-	color:white;
+	color:#c03f22;
 }
-.nav-item a:hover
-{
-	color:yellow;

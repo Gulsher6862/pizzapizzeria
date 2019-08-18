@@ -2,7 +2,7 @@
 {
 	padding-top:50px;
 }
-.nav a:active
+.nav a:link
 {
 	color:#c03f22;
 }
