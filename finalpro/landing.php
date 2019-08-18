@@ -23,8 +23,9 @@
                <li class="nav-item">
                       <a class="nav-link" href="home.php">OUR MENU</a>
                </li>
+			   
                <li class="nav-item">
-                      <a class="nav-link" href="#">OFFERS</a>
+                      <a class="nav-link" href="offers.php">OFFERS</a>
                </li>
                <li class="nav-item">
                       <a class="nav-link" href="contact.php">CONTACT US</a>

@@ -54,30 +54,17 @@
     <div class="form-group">        
       <div class="col-sm-offset-2 col-sm-10">
         <a href="#" style="height:15px;
-	                         width:20px;
-	                         color:#c03f22;
-	                         border: solid 1px #c03f22;
-	                         padding-top:10px;
-                        	 padding-bottom:10px;
-	                         padding-left:15px;
-	                         padding-right:15px;
-	                         border-radius:5px;
-                          margin="30px"">BUY</a>
+	width:20px;
+	color:#c03f22;
+	border: solid 1px #c03f22;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:15px;
+	padding-right:15px;
+	border-radius:5px;
+	margin="30px">BUY</a>
       </div>
     </div>
-    <div class="form-group">        
-      <div class="col-sm-offset-2 col-sm-10">
-        <a href="#" style="height:15px;
-                           width:20px;
-                           color:#c03f22;
-                           border: solid 1px #c03f22;
-                           padding-top:10px;
-                           padding-bottom:10px;
-                           padding-left:15px;
-                           padding-right:15px;
-                           border-radius:5px;
-                           margin="30px";">CANCEL</a>
-      </div>
   </form>
 </div>
 </body>

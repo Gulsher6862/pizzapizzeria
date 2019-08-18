@@ -21,16 +21,20 @@
                 <div class="col-lg-6 offset-lg-2">
                     <ul class="nav">
                        <li class="nav-item">
-                           <a class="nav-link active" href="#">OUR MENU</a>
+                           <a class="nav-link active" href="home.php">OUR MENU</a>
                        </li>
                        <li class="nav-item">
-                           <a class="nav-link" href="#">OFFERS</a>
+                      <a class="nav-link" href="detail-pizza.php">MAKE YOUR PIZZA</a>
+               </li>
+               
+                       <li class="nav-item">
+                           <a class="nav-link" href="offers.php">OFFERS</a>
                        </li>
                        <li class="nav-item">
                            <a class="nav-link" href="contact.php">CONTACT US</a>
                        </li>
                        <li class="nav-item">
-                           <a class="nav-link" href="about.php">ABOUT US</a>
+                           <a class="nav-link" href="about.php">ABOUT</a>
                        </li>
                   </ul>
               </div>
@@ -38,36 +42,64 @@
 	  <div class="container">
 	        <center><h5 style="margin-top:30px;paddding-botton:30px;color:#c03f22;">Contact Us</h5></center>
 	        <div class="col-lg-10 offset-lg-1">  
-	        <form>
+	        <form method="post">
                   <div class="form-row">
                       <div class="form-group col-md-6">
                           <label for="inputfname">First Name</label>
-                          <input type="text" class="form-control" id="inputfname" placeholder="Enter First name">
+                          <input type="text" class="form-control" name="inputfname" placeholder="Enter First name">
                       </div>
                       <div class="form-group col-md-6">
                           <label for="inputlname">Last Name</label>
-                          <input type="text" class="form-control" id="inputlname" placeholder="Enter Last Name">
+                          <input type="text" class="form-control" name="inputlname" placeholder="Enter Last Name">
                       </div>
                  </div>
                  <div class="form-row">
                       <div class="form-group col-md-6">
                           <label for="inputphone">Phone Number</label>
-                          <input type="number" class="form-control" id="inputphone" placeholder="Enter Phone Number">
+                          <input type="number" class="form-control" name="inputphone" placeholder="Enter Phone Number">
                       </div>
                       <div class="form-group col-md-6">
                           <label for="inputemail">Email</label>
-                          <input type="password" class="form-control" id="inputemail" placeholder="Enter Email Address">
+                          <input type="text" class="form-control" name="inputemail" placeholder="Enter Email Address">
                       </div>
                  </div>
                  <div class="form-row">
                        <div class="form-group">
                           <label for="inputmsg">Message</label>
-                          <input type="text" class="form-control" id="inputmsg" placeholder="Enter your message">
+                          <input type="text" class="form-control" name="inputmsg" placeholder="Enter your message">
                       </div>
                  </div>
                  <div class="form-row">
-                     <a href="#">Submit</a>
+                     <input type="submit" name="submit" value="submit">
                  </div>
-             <form>
+				 <?php
+     if (isset($_POST['submit']))
+	 {
+		 
+		 include 'connect.php';
+			$firstname = mysqli_real_escape_string($conn, $_POST['inputfname']);
+			$lastname = mysqli_real_escape_string($conn, $_POST['inputlname']);
+		    $phone = mysqli_real_escape_string($conn, $_POST['inputphone']);
+			$email = mysqli_real_escape_string($conn, $_POST['inputemail']);
+	        $message = mysqli_real_escape_string($conn, $_POST['inputmsg']);   
+			mysqli_query($conn , "INSERT INTO `contact`(firstname,lastname,phone,email,message) VALUES ('$firstname','$lastname','$phone','$email','$message')");
+			if('success')
+				{
+					echo ("<SCRIPT LANGUAGE='JavaScript'>".
+					"window.alert('Your message sent successfully');".
+					"</SCRIPT>");
+					exit();
+				}
+	else
+			{
+				echo ("<SCRIPT LANGUAGE='JavaScript'>".
+					"window.alert('something went wrong');".
+					"</SCRIPT>");
+					exit();
+			}
+	 }
+  ?>
+             </form>
 	     </div>
+		 
 </body>
