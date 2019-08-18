@@ -1,0 +1,63 @@
+
+.logo
+{
+	margin-top:12px;
+	margin-left:12px;
+}
+
+.navbar
+{
+	float:right;
+	color:white;
+	margin-top:10px;
+	
+}
+.nav a:link
+{
+	color:white;
+}
+.nav-item a
+{
+	color:white;
+}
+.nav-item a:hover
+{
+	color:yellow;
+}
+.text
+{
+	color:#c03f22;
+	margin-top:20vh;
+	margin-left:5vh;
+
+}
+.text a:link
+{
+	height:15px;
+	width:20px;
+	color:#c03f22;
+	border: solid 1px #c03f22;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:15px;
+	padding-right:15px;
+	border-radius:5px;
+}
+.text a:hover
+{
+	height:15px;
+	width:20px;
+	color:white;
+	background:#c03f22;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:15px;
+	padding-right:15px;
+	text-decoration:none;
+	border-radius:5px;
+}
+body
+{
+	background:url("background1.jpg") no-repeat fixed center;
+	background-size:cover;
+}

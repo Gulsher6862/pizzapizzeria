@@ -1,0 +1,39 @@
+.nav
+{
+	padding-top:50px;
+}
+.nav a:active
+{
+	color:#c03f22;
+}
+.nav a:hover
+{
+	color:#c03f22;
+}
+form a:link
+{
+	height:50px;
+	width:70px;
+	color:#c03f22;
+	border: solid 1px #c03f22;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:15px;
+	padding-right:15px;
+	border-radius:5px;
+	text-align:center;
+}
+form a:hover
+{
+	height:50px;
+	width:70px;
+	color:white;
+	background:#c03f22;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:15px;
+	padding-right:15px;
+	text-decoration:none;
+	border-radius:5px;
+	text-align:center;
+}
