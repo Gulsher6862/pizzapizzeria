@@ -1,0 +1,12 @@
+<?php
+$str=md5(microtime());
+$str=substr($str,0,6);
+session_start();
+$_SESSION['cap_code']=$str;
+$img=imagecreate(200,100);
+imagecolorallocate($img,150,150,150);
+$txtcol=imagecolorallocate($img,0,0,0);
+imagestring($img,60,70,50,$str,$txtcol);
+header('Content-type:image/jpeg');
+imagejpeg($img);
+?>
