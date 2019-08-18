@@ -36,3 +36,27 @@
 {
 	margin-top:130px;
 }
+.logo
+{
+	margin-top:12px;
+	margin-left:12px;
+}
+
+.navbar
+{
+	float:right;
+	color:white;
+	margin-top:10px;
+	
+}
+.nav a:link
+{
+	color:white;
+}
+.nav-item a
+{
+	color:white;
+}
+.nav-item a:hover
+{
+	color:yellow;
