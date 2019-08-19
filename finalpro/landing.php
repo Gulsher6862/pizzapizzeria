@@ -32,6 +32,10 @@
                </li>
                <li class="nav-item">
                       <a class="nav-link" href="about.php">ABOUT</a>
+			<li class="nav-item">
+                      <a class="nav-link" href="adminlogin.php">ADMIN ZONE</a>
+               </li>
+           
                </li>
            </ul>
         </div>
