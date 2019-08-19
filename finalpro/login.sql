@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 19, 2019 at 01:36 AM
+-- Generation Time: Aug 19, 2019 at 07:31 AM
 -- Server version: 10.3.16-MariaDB
 -- PHP Version: 7.3.7
 
@@ -21,6 +21,26 @@ SET time_zone = "+00:00";
 --
 -- Database: `login`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `admin`
+--
+
+CREATE TABLE `admin` (
+  `id` int(5) NOT NULL,
+  `adminname` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `name` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `password` varchar(50) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `admin`
+--
+
+INSERT INTO `admin` (`id`, `adminname`, `name`, `password`) VALUES
+(1, 'Gulsher', 'gulsher singh', 'shera');
 
 -- --------------------------------------------------------
 
@@ -65,11 +85,18 @@ CREATE TABLE `login` (
 
 INSERT INTO `login` (`id`, `username`, `name`, `email`, `phone`, `password`) VALUES
 (1, 'Gulsher', 'Gulsher singh', 'zshera6862@gmail.com', 4389246262, 'shera'),
-(4, 'fjdkf', 'hadk', 'jdfkd@gmail.com', 4554486165, 'kjdkfjd');
+(5, 'man', 'man man', 'sksks@example.com', 7575757575, 'hhhhh'),
+(6, 'man', 'man man', 'sksks@example.com', 7575757575, 'hhhhh');
 
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `admin`
+--
+ALTER TABLE `admin`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `contact`
@@ -88,6 +115,12 @@ ALTER TABLE `login`
 --
 
 --
+-- AUTO_INCREMENT for table `admin`
+--
+ALTER TABLE `admin`
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT for table `contact`
 --
 ALTER TABLE `contact`
@@ -97,7 +130,7 @@ ALTER TABLE `contact`
 -- AUTO_INCREMENT for table `login`
 --
 ALTER TABLE `login`
-  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
