@@ -1,3 +1,5 @@
+
+    
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,10 +13,38 @@
   <link rel="stylesheet" href="detail-pizza">
 </head>
 <body>
-<div class="Container-fluid">
-      <div class="image">
-            <img src="jumbo-pizza.jpg" width="100%" height="200px">
-      </div>
+      <div class="container-fluid">
+                <div class="row" style="border-bottom: 1px solid #c03f22;">
+                    <div class="col-lg-2">
+                        <div class="logo">
+                            <img class="img-fluid" src="logo.png">
+                        </div>
+                    </div>
+                <div class="col-lg-6 offset-lg-2">
+                    <ul class="nav">
+                       <li class="nav-item">
+                           <a class="nav-link active" href="home.php">OUR MENU</a>
+                       </li>
+                     
+					   <li class="nav-item">
+                      <a class="nav-link" href="detail-pizza.php">MAKE YOUR PIZZA</a>
+               </li>
+                           <a class="nav-link" href="offers.php">OFFERS</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="contact.php">CONTACT US</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="about.php">ABOUT</a>
+                       </li>
+                  </ul>
+              </div>
+	  </div>
+	  <div class="container">
+                
+	        <center><h5 style="margin-top:30px;paddding-botton:30px;color:#c03f22;"></h5></center>
+
+                       
 </div>
 <div class="container">
   <form class="form-horizontal" action="/action_page.php">
@@ -51,20 +81,36 @@
              <option>6</option>
           </select>
       </div><br><br>
+      <div class="form-row">
     <div class="form-group">        
       <div class="col-sm-offset-2 col-sm-10">
         <a href="#" style="height:15px;
-	width:20px;
-	color:#c03f22;
-	border: solid 1px #c03f22;
-	padding-top:10px;
-	padding-bottom:10px;
-	padding-left:15px;
-	padding-right:15px;
-	border-radius:5px;
-	margin="30px">BUY</a>
+  width:20px;
+  color:#c03f22;
+  border: solid 1px #c03f22;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:15px;
+  padding-right:15px;
+  border-radius:5px;
+  margin="30px";">BUY</a>
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <a href="#" style="height:15px;
+  width:20px;
+  color:#c03f22;
+  border: solid 1px #c03f22;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:15px;
+  padding-right:15px;
+  border-radius:5px;
+  margin="30px";">CANCEL</a>
       </div>
     </div>
   </form>
 </div>
 </body>
+
